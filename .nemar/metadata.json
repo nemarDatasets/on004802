@@ -1,0 +1,28 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004802",
+  "source": "openneuro",
+  "source_id": "ds004802",
+  "title": "Pilot data for Loneliness in the Brain: Distinguishing Between Hypersensitivity and Hyperalertness",
+  "authors": {
+    "Joe Bathelt": {},
+    "Marte Otten": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004802.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
