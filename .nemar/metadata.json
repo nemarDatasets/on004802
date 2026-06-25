@@ -1,28 +1,78 @@
 {
   "version": "2.0",
-  "dataset_id": "on004802",
-  "source": "openneuro",
-  "source_id": "ds004802",
+  "pipeline_stage": "validated",
   "title": "Pilot data for Loneliness in the Brain: Distinguishing Between Hypersensitivity and Hyperalertness",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Joe Bathelt": {},
     "Marte Otten": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004802.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004802",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004802",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "31.3 GB (277 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".csv",
+    ".edf",
+    ".html",
+    ".jpg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".yml"
+  ],
+  "description": "Pilot electroencephalography (EEG) dataset investigating neural correlates of loneliness, specifically examining whether loneliness-related brain responses reflect hypersensitivity to social cues or hyperalertness to potential threats. This dataset supports a registered report (https://osf.io/c2svz/?view_only=4ee744ac88c74f41a4d955824a69284b) examining distinct neurobiological mechanisms underlying the subjective experience of loneliness.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "loneliness"
+    },
+    {
+      "term": "social cognition"
+    },
+    {
+      "term": "hypersensitivity"
+    },
+    {
+      "term": "hyperalertness"
+    },
+    {
+      "term": "pilot study"
+    },
+    {
+      "term": "threat detection"
+    },
+    {
+      "term": "emotion"
+    },
+    {
+      "term": "registered report"
+    }
+  ],
+  "source_hash": "171f5c6f6309fbec11f253b65c44dff9426f8d20e25414da45eaa736a4e0b2d3"
 }
