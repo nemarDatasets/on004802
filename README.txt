@@ -1,1 +1,0 @@
-Pilot EEG data for the registered report 'Pilot data for Loneliness in the Brain: Distinguishing Between Hypersensitivity and Hyperalertness'. For further details, please see https://osf.io/c2svz/?view_only=4ee744ac88c74f41a4d955824a69284b
